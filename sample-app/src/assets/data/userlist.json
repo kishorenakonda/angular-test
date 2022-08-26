@@ -1,0 +1,35 @@
+{
+    "status": "success",
+    "data": [
+        {
+            "id": 1,
+            "firstName": "Kishore",
+            "lastName": "Kumar"
+        },
+        {
+            "id": 2,
+            "firstName": "Harish",
+            "lastName": "Valiveti"
+        },
+        {
+            "id": 3,
+            "firstName": "Rahul",
+            "lastName": "Bommaraju"
+        },
+        {
+            "id": 4,
+            "firstName": "Karthika",
+            "lastName": "Mani"
+        },
+        {
+            "id": 5,
+            "firstName": "Jayashree",
+            "lastName": "Settu"
+        },
+        {
+            "id": 6,
+            "firstName": "Keerthana",
+            "lastName": "Soundarajan"
+        }
+    ]
+}
