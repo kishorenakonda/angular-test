@@ -15,12 +15,15 @@ import { MatSortModule } from '@angular/material/sort';
 import { OverlayModule } from '@angular/cdk/overlay';
 import { CdkMenuModule } from '@angular/cdk/menu';
 import { MatInputModule } from '@angular/material/input';
+import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
-    MaterialTableComponent
+    MaterialTableComponent,
+    ReactiveFormComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +35,9 @@ import { MatInputModule } from '@angular/material/input';
     MatSortModule,
     OverlayModule,
     CdkMenuModule,
-    MatInputModule
+    MatInputModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [UserService, HttpService],
   bootstrap: [AppComponent]

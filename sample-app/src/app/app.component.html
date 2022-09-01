@@ -1,2 +1,10 @@
 <!-- <app-main></app-main> -->
-<app-material-table></app-material-table>
+<!-- <app-material-table></app-material-table> -->
+<div class="header"> Welcome to My Sample App </div>
+
+<div class="sections">
+    <button class="btn btn-primary m-l-10" (click)="onRouteTo('table')"> Table </button>
+    <button class="btn btn-primary m-l-10" (click)="onRouteTo('reactive-form')"> Reactive Form </button>
+</div>
+
+<router-outlet></router-outlet>

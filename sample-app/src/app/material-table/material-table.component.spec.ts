@@ -1,4 +1,7 @@
+import { HttpClient, HttpHandler } from '@angular/common/http';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { HttpService } from '../services/http.service';
+import { UserService } from '../services/user.service';
 
 import { MaterialTableComponent } from './material-table.component';
 
@@ -8,9 +11,10 @@ describe('MaterialTableComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MaterialTableComponent ]
+      declarations: [MaterialTableComponent],
+      providers: [UserService, HttpService, HttpClient, HttpHandler]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(MaterialTableComponent);
     component = fixture.componentInstance;
